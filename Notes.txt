@@ -1,0 +1,19 @@
+NEXT JS
+    -- The React Framework for the Web
+    -- Used by some of the world's largest companies, Next.js enables you to create high-quality web applications with the power of React components.
+
+NextJS knows these files
+    -- page.jsx          // code of the page
+    -- layout.jsx        // layout/cover/wrapper on the page
+    -- not-found.jsx     // incase if page/route is not available
+    -- error.jsx         // incase of any error
+    -- loader.jsx        // a smooth loader incase of delay in showing content of the page.
+
+    -- Every page (page.jsx is mandatory) may have their own layout, error page, loader etc or we can provide same as well to all.
+    -- Example: if we have a About Page, so it will be in a separate folder. It may have a page.jsx, layout.jsx, etc of their own. OR we can use the default things for it like not-found.jsx, error.jsx etc.
+
+Server Side Rendering(SSR) and Client Side Rendering(CSR):
+    -- NextJS can handle both frontend and backend development.
+    -- NextJS is famous for Server Side Rendering. Means by default, everything we perform is first render on server side and then shown to us on client side.
+    -- There are some inbuilt features NextJS provide to us to help our application render faster, SEO, optimized and other features. Example: Image, Link, Styling, Routing etc.
+
