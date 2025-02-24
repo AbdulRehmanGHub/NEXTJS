@@ -7,7 +7,7 @@ NextJS knows these files
     -- layout.jsx        // layout/cover/wrapper on the page
     -- not-found.jsx     // incase if page/route is not available
     -- error.jsx         // incase of any error
-    -- loader.jsx        // a smooth loader incase of delay in showing content of the page.
+    -- loading.jsx        // a smooth loader incase of delay in showing content of the page.
 
     -- Every page (page.jsx is mandatory) may have their own layout, error page, loader etc or we can provide same as well to all.
     -- Example: if we have a About Page, so it will be in a separate folder. It may have a page.jsx, layout.jsx, etc of their own. OR we can use the default things for it like not-found.jsx, error.jsx etc.
